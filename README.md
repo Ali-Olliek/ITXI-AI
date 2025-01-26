@@ -8,5 +8,8 @@ To run the project follow these steps:
 3. Recommended - Create a virtual environment using `python -m venv venv`.
 4. Recommended - Activate virtual environment using `venv/scripts/activate`.
 5. Download project's dependencies using `pip install --no-cache-dir -r requirements.txt`
-6. In Jupyter Notebook select the correct environment `venv`.
-7. Run the cells.
+6. Copy `.env.example` and rename it to `.env`.
+7. Modify `.env`'s content.
+    a. OPEN_AI_KEY: Request OPEN_AI_KEY from OpenAI's developer dashboard.
+8. In Jupyter Notebook select the correct environment `venv`.
+9. Finally, Run the cells.
